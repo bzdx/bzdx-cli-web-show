@@ -1,0 +1,12 @@
+node_modules
+test
+dist
+*.exe
+.zip
+.cmd
+.git
+*.hot-update.js
+*.hot-update.json
+.idea
+static
+log.log
