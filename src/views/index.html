@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="baidu-site-verification" content="" />
+    <meta baidu-gxt-verify-token="">
+    <meta name="shenma-site-verification" content=""/>
+    <meta name="sogou_site_verification" content=""/>
+    <meta name="360-site-verification" content="" />
     <meta name="author" content="{{ author }}">
     <meta name="keywords" content="{{ keywords }}">
     <meta name="description" content="{{ description }}">
@@ -17,5 +22,20 @@
 <script src="/static/libs/vue.js"></script>
 <script src="/static/libs/scrollreveal.min.js"></script>
 <script src="/static/index.js"></script>
+
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+        // 百度统计
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+
+        // 360自动收录
+        var src = "https://jspassport.ssl.qhimg.com/11.0.1.js?";
+        document.write('<script src="' + src + '" id="sozz"><\/script>');
+    })();
+</script>
 </body>
 </html>
